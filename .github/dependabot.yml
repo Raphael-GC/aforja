@@ -1,0 +1,15 @@
+# Abre Pull Requests automáticos quando sai uma versão nova de uma dependência
+# (ex: Quartz) ou do próprio GitHub Actions. O workflow em android-ci.yml roda
+# build+testes em cada PR desses — só aceite se passar. Ver briefing.md Seção 6.
+version: 2
+updates:
+  - package-ecosystem: "gradle"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 10
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
