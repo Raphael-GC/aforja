@@ -46,7 +46,9 @@ Plataforma Android primeiro; uma versão iOS é planejada para depois da publica
 
 ## Licença
 
-GNU GPLv3.
+Este projeto é distribuído sob a **GNU General Public License v3.0 (GPLv3)** — veja o arquivo [LICENSE](LICENSE) para o texto completo.
+
+Isso significa que qualquer pessoa pode usar, estudar e modificar o código, mas uma versão modificada distribuída publicamente precisa continuar sob a mesma licença (código aberto), preservando os avisos de copyright.
 
 ---
 
