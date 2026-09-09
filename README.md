@@ -46,7 +46,7 @@ Plataforma Android primeiro; uma versão iOS é planejada para depois da publica
 
 ## Licença
 
-A definir.
+GNU GPLv3.
 
 ---
 
